@@ -1,0 +1,35 @@
+name: mobile
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  bottom_sheet: ^4.0.1
+  flutter:
+    sdk: flutter
+  flutter_3d_controller: ^1.2.1
+  icons_plus: ^4.0.0
+  provider: ^6.1.2
+  sliding_up_panel: ^2.0.0+1
+  get: ^4.6.6
+  permission_handler: ^11.3.1
+  camera: ^0.10.5+9
+  cupertino_icons: ^1.0.6
+  image: ^3.3.0
+  flutter_tflite: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/learning/
+    - assets/images/
+    - assets/tflite/
